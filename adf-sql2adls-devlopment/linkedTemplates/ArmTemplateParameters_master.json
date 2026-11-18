@@ -1,0 +1,45 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adf-sql2adls-devlopment"
+		},
+		"LS_AzureDataLakeStorage_accountKey": {
+			"value": ""
+		},
+		"LS_Parquet_data_password": {
+			"value": ""
+		},
+		"LS_SqlServer_password": {
+			"value": ""
+		},
+		"LS_AzureDataLakeStorage_properties_typeProperties_url": {
+			"value": "https://adlssql2adlsproject.dfs.core.windows.net/"
+		},
+		"LS_Parquet_data_properties_typeProperties_server": {
+			"value": "DESKTOP-60782LL\\SQLEXPRESS"
+		},
+		"LS_Parquet_data_properties_typeProperties_database": {
+			"value": "sqlmigration"
+		},
+		"LS_Parquet_data_properties_typeProperties_userName": {
+			"value": "Ashish"
+		},
+		"LS_SqlServer_properties_typeProperties_server": {
+			"value": "DESKTOP-60782LL\\SQLEXPRESS"
+		},
+		"LS_SqlServer_properties_typeProperties_database": {
+			"value": "sqlmigration"
+		},
+		"LS_SqlServer_properties_typeProperties_userName": {
+			"value": "Ashish"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
