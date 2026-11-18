@@ -1,0 +1,15 @@
+{
+	"name": "adf-sql2adls-devlopment",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "04b002de-ef5b-47e8-b152-4d407b18b96c",
+		"tenantId": "c25c2025-7210-47ef-af13-e4db25b8de25"
+	}
+}
